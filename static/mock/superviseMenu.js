@@ -1,0 +1,74 @@
+{
+	"supervise":{
+		"index":"1",
+		"code":"/supervise",
+		"icon":"icon icon-monitoring",
+		"menuName":"运行监管",
+		"subMenu":[
+			{
+				"code":"/supervise/building",
+				"menuName":"建筑群监管"
+			},
+			{
+				"code":"/supervise/parkSecurity",
+				"menuName":"园区安防"
+			},
+			{
+				"code":"/supervise/environment",
+				"menuName":"生态环境"
+			},
+			{
+				"code":"/supervise/facilities",
+				"menuName":"市政设施"
+			},
+			{
+				"code":"/supervise/traffic",
+				"menuName":"动静交通"
+			},
+			{
+				"code":"/supervise/information/infoList",
+				"menuName":"信息发布"
+			}
+		]
+	},
+	"mochaITOM":{
+		"index":"2",
+		"code":"/supervise",
+		"icon":"icon icon-management",
+		"menuName":"运维管理",
+		"subMenu":[
+			{
+				"code":"/supervise/resourceManage",
+				"menuName":"资源管理"
+			},
+			{
+				"code":"/supervise/facilitiesInspection",
+				"menuName":"设施点检"
+			}
+		]
+	},
+	"dataMining":{
+		"index":"3",
+		"code":"/supervise/dataMining",
+		"icon":"icon icon-mining",
+		"menuName":"数据挖掘"
+	},
+	"controls":{
+		"index":"4",
+		"code":"/supervise/controls",
+		"icon":"icon icon-control",
+		"menuName":"控制中心"
+	},
+	"alarm":{
+		"index":"5",
+		"code":"/supervise/alarm",
+		"icon":"icon icon-calling",
+		"menuName":"报警中心"
+	},
+	"workflow":{
+		"index":"6",
+		"code":"/supervise/workflow",
+		"icon":"icon icon-workflow",
+		"menuName":"工作流引擎"
+	}
+}

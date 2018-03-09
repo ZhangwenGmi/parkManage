@@ -1,0 +1,21 @@
+<template>
+  <div>
+  	<SuperviseMenu></SuperviseMenu>
+    <TopBar></TopBar>
+    <transition>
+      <router-view></router-view>
+    </transition>
+  </div>
+</template>
+
+<script>
+import SuperviseMenu from '../../components/supervise/superviseMenu.vue'
+import TopBar from '../../components/common/TopBar.vue'
+
+export default {
+	name:"superviseContainer",
+  components: {
+    SuperviseMenu,TopBar
+  }
+}
+</script>
